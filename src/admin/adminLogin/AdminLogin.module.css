@@ -1,0 +1,49 @@
+.hiddenFileInput {
+    position: relative;
+    overflow: hidden;
+  }
+  .hiddenFileInput input[type="file"] {
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+  }
+  
+  .hiddenFileInput input[type="file"]::-webkit-file-upload-button {
+    display: none;
+  }
+  
+  .hiddenFileInput input[type="file"]::file-selector-button {
+    display: none;
+  }
+  
+  .customFileInput {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .customFileInput input[type="file"] {
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .customFileInput input[type="file"]::-webkit-file-upload-button {
+    display: none;
+  }
+  
+  .customFileInput input[type="file"]::file-selector-button {
+    display: none;
+  }
+  
+  .fileDisplay {
+    flex: 1;
+    color: var(--text-color);
+    font-size: 14px;
+    padding: 0.5rem;
+    min-height: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  

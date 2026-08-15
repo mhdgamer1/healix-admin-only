@@ -1,0 +1,56 @@
+{
+  "adminLogin": {
+    "title": "Log",
+    "titleCyan": "in",
+    "subtitle": "Enter your credential to login",
+    "emailPlaceholder": "Type email",
+    "passwordPlaceholder": "Type Password...",
+    "loginBtn": "Login",
+    "loginFailed": "Login failed",
+    "loginSuccess": "Logged in successfully!!",
+    "loginFailedRetry": "Failed to login. Please try again."
+  },
+  "sidebar": {
+    "statistics": "Statistics",
+    "services": "Services",
+    "management": "Management",
+    "signOut": "Sign Out"
+  },
+  "completedServices": {
+    "title": "Completed Services",
+    "id": "ID",
+    "patientName": "Patient Full Name",
+    "serviceName": "Service Name",
+    "provider": "Service Provider",
+    "rating": "Rating",
+    "date": "Date",
+    "action": "Action",
+    "contact": "Contact",
+    "noRating": "No Rating Yet!",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "usersManagement": {
+    "title": "Users Management",
+    "fullName": "Full Name",
+    "email": "Email",
+    "userType": "User Type",
+    "attachments": "Attachments",
+    "date": "Date",
+    "action": "Action",
+    "view": "View",
+    "activate": "Activate",
+    "decline": "Decline",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "close": "Close"
+  },
+  "desktopOnly": {
+  "title": "Admin Dashboard",
+  "message": "This dashboard is only available from a computer. Please open the link in a browser on a larger screen."
+}
+}

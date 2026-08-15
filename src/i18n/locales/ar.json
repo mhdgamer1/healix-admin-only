@@ -1,0 +1,56 @@
+{
+  "adminLogin": {
+    "title": "تسجيل",
+    "titleCyan": "الدخول",
+    "subtitle": "أدخل بياناتك لتسجيل الدخول",
+    "emailPlaceholder": "أدخل البريد الإلكتروني",
+    "passwordPlaceholder": "أدخل كلمة المرور...",
+    "loginBtn": "تسجيل الدخول",
+    "loginFailed": "فشل تسجيل الدخول",
+    "loginSuccess": "تم تسجيل الدخول بنجاح!",
+    "loginFailedRetry": "فشل تسجيل الدخول. يُرجى المحاولة مرة أخرى."
+  },
+  "sidebar": {
+    "statistics": "الإحصائيات",
+    "services": "الخدمات",
+    "management": "الإدارة",
+    "signOut": "تسجيل الخروج"
+  },
+  "completedServices": {
+    "title": "الخدمات المكتملة",
+    "id": "الرقم",
+    "patientName": "اسم المريض",
+    "serviceName": "اسم الخدمة",
+    "provider": "مقدّم الخدمة",
+    "rating": "التقييم",
+    "date": "التاريخ",
+    "action": "إجراء",
+    "contact": "تواصل",
+    "noRating": "لا يوجد تقييم بعد!",
+    "previous": "السابق",
+    "next": "التالي"
+  },
+  "usersManagement": {
+    "title": "إدارة المستخدمين",
+    "fullName": "الاسم الكامل",
+    "email": "البريد الإلكتروني",
+    "userType": "نوع المستخدم",
+    "attachments": "المرفقات",
+    "date": "التاريخ",
+    "action": "إجراء",
+    "view": "عرض",
+    "activate": "تفعيل",
+    "decline": "رفض",
+    "edit": "تعديل",
+    "delete": "حذف"
+  },
+  "common": {
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "close": "إغلاق"
+  },
+  "desktopOnly": {
+  "title": "لوحة الإدارة",
+  "message": "هذه اللوحة متاحة فقط من جهاز الكمبيوتر. يُرجى فتح الرابط من متصفح على شاشة أكبر."
+}
+}
