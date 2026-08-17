@@ -6,16 +6,19 @@
     "emailPlaceholder": "Type email",
     "passwordPlaceholder": "Type Password...",
     "loginBtn": "Login",
+    "loggingIn": "Logging in...",
     "loginFailed": "Login failed",
     "loginSuccess": "Logged in successfully!!",
     "loginFailedRetry": "Failed to login. Please try again."
   },
+
   "sidebar": {
     "statistics": "Statistics",
     "services": "Services",
     "management": "Management",
     "signOut": "Sign Out"
   },
+
   "completedServices": {
     "title": "Completed Services",
     "id": "ID",
@@ -30,6 +33,7 @@
     "previous": "Previous",
     "next": "Next"
   },
+
   "usersManagement": {
     "title": "Users Management",
     "fullName": "Full Name",
@@ -44,13 +48,56 @@
     "edit": "Edit",
     "delete": "Delete"
   },
+
   "common": {
     "cancel": "Cancel",
     "save": "Save",
     "close": "Close"
   },
+
   "desktopOnly": {
-  "title": "Admin Dashboard",
-  "message": "This dashboard is only available from a computer. Please open the link in a browser on a larger screen."
-}
+    "title": "Admin Dashboard",
+    "message": "This dashboard is only available from a computer. Please open the link in a browser on a larger screen."
+  },
+
+  "forgotPassword": {
+    "forgotPassword": "Forgot Password",
+
+    "step1Title": "Forgot Password?",
+    "step1Subtitle": "Enter your email address and we will send you a verification code.",
+
+    "emailPlaceholder": "Enter your email address",
+    "emailRequired": "Please enter your email address.",
+
+    "sendCode": "Send Verification Code",
+    "sendCodeFailed": "Failed to send verification code. Please try again.",
+
+    "step2Title": "Verify Your Email",
+    "step2Subtitle": "Enter the verification code sent to {{email}}.",
+
+    "codePlaceholder": "Enter verification code",
+    "codeRequired": "Please enter the verification code.",
+
+    "verifyCode": "Verify Code",
+    "invalidCode": "Invalid or expired verification code.",
+
+    "resendCode": "Resend Code",
+
+    "step3Title": "Create New Password",
+    "step3Subtitle": "Enter a new password for your account.",
+
+    "newPasswordPlaceholder": "Enter new password",
+    "confirmPasswordPlaceholder": "Confirm new password",
+
+    "passwordTooShort": "Password must be at least 8 characters.",
+    "passwordsDontMatch": "Passwords do not match.",
+
+    "resetPassword": "Reset Password",
+    "resetFailed": "Failed to reset password. Please try again.",
+
+    "successTitle": "Password Reset Successfully",
+    "successSubtitle": "Your password has been changed successfully. You can now log in with your new password.",
+
+    "backToLogin": "Back to Login"
+  }
 }
