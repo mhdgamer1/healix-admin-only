@@ -92,5 +92,26 @@
 "common": {
   "loading": "جارٍ التحميل...", "previous": "السابق", "next": "التالي",
   "page": "صفحة", "of": "من", "save": "حفظ", "cancel": "إلغاء", "close": "إغلاق"
+},
+"statistics": {
+  "loadFailed": "فشل تحميل الإحصائيات",
+  "users": "المستخدمون",
+  "patients": "المرضى",
+  "doctors": "الأطباء",
+  "pharmacists": "الصيادلة",
+  "nurse": "الممرضات",
+  "physiotherapist": "أخصائيو العلاج الطبيعي",
+  "deliveryAgents": "موظفو التوصيل",
+  "topDoctors": "أفضل الأطباء",
+  "totalConsultations": "إجمالي الاستشارات:",
+  "consultations": "الاستشارات",
+  "total": "الإجمالي",
+  "completed": "مكتملة",
+  "cancelled": "ملغاة",
+  "orders": "الطلبات",
+  "delivered": "تم التوصيل",
+  "pending": "قيد الانتظار",
+  "documents": "المستندات",
+  "pendingDocuments": "مستندات قيد المراجعة"
 }
 }

@@ -103,5 +103,27 @@
 "common": {
   "loading": "Loading...", "previous": "Previous", "next": "Next",
   "page": "Page", "of": "of", "save": "Save", "cancel": "Cancel", "close": "Close"
+},
+
+"statistics": {
+  "loadFailed": "Failed to load statistics",
+  "users": "Users",
+  "patients": "Patients",
+  "doctors": "Doctors",
+  "pharmacists": "Pharmacists",
+  "nurse": "Nurse",
+  "physiotherapist": "Physiotherapist",
+  "deliveryAgents": "Delivery agents",
+  "topDoctors": "Top Doctors",
+  "totalConsultations": "Total consultations:",
+  "consultations": "Consultations",
+  "total": "Total",
+  "completed": "Completed",
+  "cancelled": "Cancelled",
+  "orders": "Orders",
+  "delivered": "Delivered",
+  "pending": "Pending",
+  "documents": "Documents",
+  "pendingDocuments": "Pending documents"
 }
 }
