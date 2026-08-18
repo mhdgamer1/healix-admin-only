@@ -8,47 +8,10 @@
     "loginBtn": "تسجيل الدخول",
     "loginFailed": "فشل تسجيل الدخول",
     "loginSuccess": "تم تسجيل الدخول بنجاح!",
-    "loginFailedRetry": "فشل تسجيل الدخول. يُرجى المحاولة مرة أخرى."
+    "loginFailedRetry": "فشل تسجيل الدخول. يُرجى المحاولة مرة أخرى.",
+    "loggingIn": "جارٍ تسجيل الدخول..."
   },
-  "sidebar": {
-    "statistics": "الإحصائيات",
-    "services": "الخدمات",
-    "management": "الإدارة",
-    "signOut": "تسجيل الخروج"
-  },
-  "completedServices": {
-    "title": "الخدمات المكتملة",
-    "id": "الرقم",
-    "patientName": "اسم المريض",
-    "serviceName": "اسم الخدمة",
-    "provider": "مقدّم الخدمة",
-    "rating": "التقييم",
-    "date": "التاريخ",
-    "action": "إجراء",
-    "contact": "تواصل",
-    "noRating": "لا يوجد تقييم بعد!",
-    "previous": "السابق",
-    "next": "التالي"
-  },
-  "usersManagement": {
-    "title": "إدارة المستخدمين",
-    "fullName": "الاسم الكامل",
-    "email": "البريد الإلكتروني",
-    "userType": "نوع المستخدم",
-    "attachments": "المرفقات",
-    "date": "التاريخ",
-    "action": "إجراء",
-    "view": "عرض",
-    "activate": "تفعيل",
-    "decline": "رفض",
-    "edit": "تعديل",
-    "delete": "حذف"
-  },
-  "common": {
-    "cancel": "إلغاء",
-    "save": "حفظ",
-    "close": "إغلاق"
-  },
+
   "desktopOnly": {
   "title": "لوحة الإدارة",
   "message": "هذه اللوحة متاحة فقط من جهاز الكمبيوتر. يُرجى فتح الرابط من متصفح على شاشة أكبر."
@@ -92,5 +55,42 @@
   "successSubtitle": "تم تغيير كلمة المرور بنجاح. يمكنك الآن تسجيل الدخول باستخدام كلمة المرور الجديدة.",
 
   "backToLogin": "العودة إلى تسجيل الدخول"
+},
+"adminLayout": { "userTitle": "المستخدم", "admin": "أدمن" },
+"sidebar": {
+  "statistics": "الإحصائيات", "services": "الخدمات",
+  "management": "الإدارة", "signOut": "تسجيل الخروج",
+  "logoutConfirmTitle": "تسجيل الخروج",
+  "logoutConfirmMessage": "هل أنت متأكد من رغبتك في تسجيل الخروج؟"
+},
+"usersManagement": {
+  "title": "إدارة المستخدمين",
+  "loadFailed": "فشل تحميل المستخدمين",
+  "id": "الرقم", "fullName": "الاسم الكامل", "email": "البريد الإلكتروني",
+  "userType": "نوع المستخدم", "attachments": "المرفقات",
+  "date": "التاريخ", "action": "إجراء", "view": "عرض",
+  "activate": "تفعيل", "decline": "رفض",
+  "edit": "تعديل", "delete": "حذف",
+  "activateSuccess": "تم تفعيل الحساب بنجاح!",
+  "rejectSuccess": "تم رفض الحساب بنجاح!",
+  "updateSuccess": "تم تحديث الحساب بنجاح!",
+  "deleteSuccess": "تم حذف الحساب بنجاح!",
+  "userAttachments": "مرفقات المستخدم",
+  "noAttachments": "لا توجد مرفقات",
+  "category": "الفئة", "fileName": "اسم الملف",
+  "editUser": "تعديل المستخدم"
+},
+"completedServices": {
+  "title": "الخدمات المكتملة",
+  "loadFailed": "فشل تحميل الخدمات المكتملة",
+  "id": "الرقم", "patientName": "اسم المريض",
+  "serviceName": "اسم الخدمة", "provider": "مقدّم الخدمة",
+  "rating": "التقييم", "date": "التاريخ", "action": "إجراء",
+  "contact": "تواصل", "noRating": "لا يوجد تقييم بعد!"
+},
+"contactModal": { "title": "تواصل مع المريض", "name": "الاسم", "phone": "الهاتف" },
+"common": {
+  "loading": "جارٍ التحميل...", "previous": "السابق", "next": "التالي",
+  "page": "صفحة", "of": "من", "save": "حفظ", "cancel": "إلغاء", "close": "إغلاق"
 }
 }

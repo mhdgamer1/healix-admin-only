@@ -8,7 +8,7 @@ import {
 import { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-
+import { apiFetch } from "../../utils/apiClient";
 import LogoImage from "../../Components/logoImage/LogoImage";
 import styles from "./AdminLogin.module.css";
 import ForgotPasswordModal from "./ForgetPsswordModal";
@@ -66,14 +66,10 @@ const AdminLogin = () => {
     console.log("user's data:", user);
 
     try {
-      const response = await fetch(
-        "https://unjuicy-schizogenous-gibson.ngrok-free.dev/api/auth/login",
+      const response = await apiFetch(
+        "/api/auth/login",
         {
           method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            "ngrok-skip-browser-warning": "true",
-          },
           body: JSON.stringify(user),
         }
       );

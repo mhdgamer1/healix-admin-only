@@ -12,48 +12,8 @@
     "loginFailedRetry": "Failed to login. Please try again."
   },
 
-  "sidebar": {
-    "statistics": "Statistics",
-    "services": "Services",
-    "management": "Management",
-    "signOut": "Sign Out"
-  },
 
-  "completedServices": {
-    "title": "Completed Services",
-    "id": "ID",
-    "patientName": "Patient Full Name",
-    "serviceName": "Service Name",
-    "provider": "Service Provider",
-    "rating": "Rating",
-    "date": "Date",
-    "action": "Action",
-    "contact": "Contact",
-    "noRating": "No Rating Yet!",
-    "previous": "Previous",
-    "next": "Next"
-  },
 
-  "usersManagement": {
-    "title": "Users Management",
-    "fullName": "Full Name",
-    "email": "Email",
-    "userType": "User Type",
-    "attachments": "Attachments",
-    "date": "Date",
-    "action": "Action",
-    "view": "View",
-    "activate": "Activate",
-    "decline": "Decline",
-    "edit": "Edit",
-    "delete": "Delete"
-  },
-
-  "common": {
-    "cancel": "Cancel",
-    "save": "Save",
-    "close": "Close"
-  },
 
   "desktopOnly": {
     "title": "Admin Dashboard",
@@ -99,5 +59,49 @@
     "successSubtitle": "Your password has been changed successfully. You can now log in with your new password.",
 
     "backToLogin": "Back to Login"
-  }
+  },
+  "adminLayout": {
+  "userTitle": "User",
+  "admin": "Admin"
+},
+"sidebar": {
+  "statistics": "Statistics",
+  "services": "Services",
+  "management": "Management",
+  "signOut": "Sign Out",
+  "logoutConfirmTitle": "Sign Out",
+  "logoutConfirmMessage": "Are you sure you want to sign out?"
+},
+"usersManagement": {
+  "title": "Users Management",
+  "loadFailed": "Failed to load Users",
+  "id": "ID", "fullName": "Full Name", "email": "Email",
+  "userType": "User Type", "attachments": "Attachments",
+  "date": "Date", "action": "Action", "view": "View",
+  "activate": "Activate", "decline": "Decline",
+  "edit": "Edit", "delete": "Delete",
+  "activateSuccess": "Account Activated Successfully!",
+  "rejectSuccess": "Account Rejected Successfully!",
+  "updateSuccess": "Account Updated Successfully!",
+  "deleteSuccess": "Account Deleted Successfully!",
+  "userAttachments": "User Attachments",
+  "noAttachments": "No attachments found",
+  "category": "Category", "fileName": "File Name",
+  "editUser": "Edit User"
+},
+"completedServices": {
+  "title": "Completed Services",
+  "loadFailed": "Failed to load completed services",
+  "id": "ID", "patientName": "Patient Full Name",
+  "serviceName": "Service Name", "provider": "Service Provider",
+  "rating": "Rating", "date": "Date", "action": "Action",
+  "contact": "Contact", "noRating": "No Rating Yet!"
+},
+"contactModal": {
+  "title": "Contact Patient", "name": "Name", "phone": "Phone"
+},
+"common": {
+  "loading": "Loading...", "previous": "Previous", "next": "Next",
+  "page": "Page", "of": "of", "save": "Save", "cancel": "Cancel", "close": "Close"
+}
 }
